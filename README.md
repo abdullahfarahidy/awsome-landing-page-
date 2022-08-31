@@ -1,10 +1,11 @@
 Abdallah Egfwd Udacity landing page
 a Multisection dynamic web page with responsive layout and amazing features.
 Table of contents
-install vs-code and open the source code using it.
-How I developed it:
+install vs-code and download the source code from: for using it.
+ Developement procedures:
 i have added list items using javascript
-i have created class for each list item and designed it with css
+i have created class for each list item 
+i have increased number of page sections to 6
 i have added a refreence link in each list item tag for scrolling to sections
 i have created scrolling fucntion to scroll to section when clicking list item
 i have added smooth scrolling property for effecient scrolling
