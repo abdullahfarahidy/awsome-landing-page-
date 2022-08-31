@@ -16,7 +16,15 @@ createListItem();
  //preparing toggle function
  
  let secClass = document.querySelectorAll(".your-active-class");
- let isShow = true;
+ let isShow =sections.forEach( function isinviwport(sec){
+    var bounding = sec.getBoundingClientRect();
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+ }) = true;
  let litoggles =  Array.from(document.getElementsByClassName("menu__link"));
 //toggle function(show-hide)
 
@@ -42,5 +50,3 @@ createListItem();
 };
 
 setTimeout(ClickScroll(),201);
-
-
