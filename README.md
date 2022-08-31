@@ -1,7 +1,7 @@
 Abdallah Egfwd Udacity landing page
 a Multisection dynamic web page with responsive layout and amazing features.
 Table of contents
-install vs-code and download the source code from: for using it.
+install vs-code and download the source code from:https://github.com/abdullahfarahidy/resub-landingegfwd for using it.
  Developement procedures:
 i have added list items using javascript
 i have created class for each list item 
